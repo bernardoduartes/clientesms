@@ -20,6 +20,7 @@ public class ClienteController {
 
     @GetMapping
     public String get(){
+        log.info("Obtendo o status do microservice de clientes");
         return "ok";
     }
 
